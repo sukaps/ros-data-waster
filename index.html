@@ -261,7 +261,7 @@
                 <path d="M11 7l-3.2 9h1.9l.7-2h3.2l.7 2h1.9L13 7h-2zm-.15 5.65L12 9l1.15 3.65h-2.3zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69zm-2 5.79V18h-3.52L12 20.48 9.52 18H6v-3.52L3.52 12 6 9.52V6h3.52L12 3.52 14.48 6H18v3.52L20.48 12 18 14.48z" />
             </svg>
         </button>
-        <h1 class="mdc-typography--headline2">数据流量浪费</h1>
+        <h1 class="mdc-typography--headline2">数据流量消耗</h1>
         <p class="mdc-typography--body1">消耗流量的最有效最直接的方法</p>
         <br>
         <div class="option__unlimited mdc-switch mdc-switch--checked" data-mdc-auto-init="MDCSwitch">
@@ -278,7 +278,7 @@
             <div class="mdc-notched-outline">
                 <div class="mdc-notched-outline__leading"></div>
                 <div class="mdc-notched-outline__notch">
-                    <label for="goal" class="mdc-floating-label">消耗 MBs的流量</label>
+                    <label for="goal" class="mdc-floating-label">消耗MBs的流量</label>
                 </div>
                 <div class="mdc-notched-outline__trailing"></div>
             </div>
@@ -481,7 +481,7 @@
             $(".output__progress").
             get(0).
             MDCLinearProgress.open();
-            $(".option__waste > .mdc-fab__label").html("Stop Wasting");
+            $(".option__waste > .mdc-fab__label").html("停止消耗");
             $(".option__waste > .mdc-fab__icon").html('<path fill="none" d="M0 0h24v24H0V0z"/><path d="M16 8v8H8V8h8m2-2H6v12h12V6z"/>');
             running = true;
             wasted = 0;
@@ -501,7 +501,7 @@
             $(".output__progress").
             get(0).
             MDCLinearProgress.close();
-            $(".option__waste > .mdc-fab__label").html("Start Wasting");
+            $(".option__waste > .mdc-fab__label").html("开始消耗");
             $(".option__waste > .mdc-fab__icon").html('<path fill="none" d="M0 0h24v24H0V0z"/><path d="M10 8.64L15.27 12 10 15.36V8.64M8 5v14l11-7L8 5z"/>');
         };
 
